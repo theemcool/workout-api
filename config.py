@@ -1,7 +1,11 @@
+
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-# Set up the database and migration extensions.
-# They will be connected to the Flask app in app.py.
+# Create the database extension.
+# It will be connected to the Flask application in app.py.
 db = SQLAlchemy()
+
+# Create the migration extension.
+# It manages changes to the database structure.
 migrate = Migrate()

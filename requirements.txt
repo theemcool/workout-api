@@ -1,4 +1,5 @@
-Flask
-Flask-SQLAlchemy
-Flask-Migrate
-marshmallow
+Flask==3.1.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.1.0
+marshmallow==4.3.1
+pytest==9.2.0
